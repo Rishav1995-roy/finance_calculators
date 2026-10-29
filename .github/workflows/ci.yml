@@ -37,6 +37,11 @@ jobs:
           flutter-version: ${{ matrix.version }}
           channel: stable
           cache: true
+      # The package supports Flutter 3.27, but the example app may use newer
+      # dev dependencies, so the minimum leg tests the package only. The
+      # example is analyzed and built on stable in the `example` job.
+      - if: matrix.label == '3.27.4'
+        run: rm -rf example
       - run: flutter pub get
       - if: matrix.label == 'stable'
         run: dart format --output=none --set-exit-if-changed lib test
