@@ -1,0 +1,20 @@
+name: finance_calculators_example
+description: "Example app for the finance_calculators package."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  finance_calculators:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ">=5.0.0 <7.0.0"
+
+flutter:
+  uses-material-design: true

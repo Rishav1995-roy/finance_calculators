@@ -1,0 +1,36 @@
+name: finance_calculators
+description: >-
+  Accurate SIP, EMI, FD, RD, SWP, lumpsum and goal calculators with ready,
+  fully customizable Flutter views and animated charts. No chart dependency.
+version: 0.0.1
+homepage: https://github.com/Rishav1995-roy/finance_calculators
+repository: https://github.com/Rishav1995-roy/finance_calculators
+issue_tracker: https://github.com/Rishav1995-roy/finance_calculators/issues
+
+topics:
+  - finance
+  - calculator
+  - sip
+  - emi
+  - charts
+
+screenshots:
+  - description: 'SIP calculator with slider inputs, summary, donut chart and breakdown.'
+    path: doc/demo.gif
+  - description: 'EMI calculator, light theme.'
+    path: doc/screenshot_light.png
+  - description: 'SIP calculator with the stacked bar chart, dark theme.'
+    path: doc/screenshot_dark.png
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=5.0.0 <7.0.0"
