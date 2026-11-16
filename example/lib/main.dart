@@ -1,4 +1,5 @@
 import 'package:finance_calculators/finance_calculators.dart';
+// ignore: deprecated_member_use
 import 'package:flutter/material.dart';
 
 void main() => runApp(const ExampleApp());
