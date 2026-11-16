@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:finance_calculators/finance_calculators.dart';
 import 'package:finance_calculators/src/charts/chart_utils.dart';
 import 'package:finance_calculators/src/charts/donut_chart.dart' as impl;
+// ignore: deprecated_member_use
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
