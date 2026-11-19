@@ -2,7 +2,7 @@ name: finance_calculators
 description: >-
   Accurate SIP, EMI, FD, RD, SWP, lumpsum and goal calculators with ready,
   fully customizable Flutter views and animated charts. No chart dependency.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Rishav1995-roy/finance_calculators
 repository: https://github.com/Rishav1995-roy/finance_calculators
 issue_tracker: https://github.com/Rishav1995-roy/finance_calculators/issues

@@ -50,7 +50,7 @@ Existing calculator packages on pub.dev (checked 2026-10-30), for example [`calc
 
 ```yaml
 dependencies:
-  finance_calculators: ^0.0.1
+  finance_calculators: ^0.0.2
 ```
 
 ## Quick start
